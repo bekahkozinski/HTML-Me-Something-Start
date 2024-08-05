@@ -1,1 +1,82 @@
-/* Write your CSS here! */
+/* Write your CSS here! */@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
+
+* {
+    box-sizing: border-box;
+    font-family: Serif;
+    color: #444;
+}
+
+htlm, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.name-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/header-background.jpg");
+    background-blend-mode: mulitply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.my-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: Philosopher;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.my-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Philospher;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
