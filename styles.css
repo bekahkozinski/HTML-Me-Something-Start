@@ -42,7 +42,8 @@ htlm, body {
     background-color: rgba(255, 255, 255, .3);
 }
 
-.name-header {
+#mainHeading {
+    color: red;
     background-color: rgba(0, 0, 0, .6);
     background-image: url("images/header-background.jpg");
     background-blend-mode: mulitply;
@@ -79,4 +80,62 @@ htlm, body {
     color: #333;
     text-align: center;
     font-size: 2.5em;
+}
+
+.main-bekah-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.photo-container {
+    background-color: rgba(95, 145, 170, .3);
+}
+
+.photos li {
+    display: inline;
+    align-items: center;
+}
+
+.family-bekah {
+    float: left;
+    height: 170px;
+    width: 230px;
+    margin: 15px;
+}
+
+.nurse-bekah {
+    float: left;
+    height: 230px;
+    width: 170px;
+    margin: 15px
+}
+
+.bekah-and-fernando {
+    float: right;
+    height: 160px;
+    width: 230px;
+    margin: 15px
+}
+
+.travel-bekah {
+    float: right;
+    height: 160px;
+    width: 230px;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: rgb(114, 99, 127);
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: .5em 0;
+    margin: 1em;
 }
